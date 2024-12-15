@@ -4,7 +4,7 @@
       {
         "Register": {
           "NewDomain": {
-            "id": "xot",
+            "id": "world1",
             "logo": null,
             "metadata": {
               "key": {
@@ -17,9 +17,9 @@
       {
         "Register": {
           "NewAccount": {
-            "id": "admin@xot",
+            "id": "admin@world1",
             "signatories": [
-              "ed01209AA0FB47CD2F6368E40C6F11BF1A701B7DE04C5FB67D04DDB16A9554C7E8B4F3"
+              "ed012083BEADAB02B2050EC2BE551EA6FEDC1856DC2AEEC18F91B8767BC9B397786B86"
             ],
             "metadata": {
               "key": {
@@ -38,7 +38,7 @@
             }
           },
           "destination_id": {
-            "AccountId": "admin@xot"
+            "AccountId": "admin@world1"
           }
         }
       },
@@ -114,13 +114,13 @@
               {
                 "definition_id": "CanRemoveKeyValueInUserAccount",
                 "payload": {
-                  "account_id": "admin@xot"
+                  "account_id": "admin@world1"
                 }
               },
               {
                 "definition_id": "CanSetKeyValueInUserAccount",
                 "payload": {
-                  "account_id": "admin@xot"
+                  "account_id": "admin@world1"
                 }
               }
             ]

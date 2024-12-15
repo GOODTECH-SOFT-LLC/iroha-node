@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IROHA_SERVICE="http://172.16.101.17:3001"
+IROHA_SERVICE="http://172.16.101.16:3000"
 JWT_TOKEN=$(cat .jwt-token)
 
 GEN_KEY_PAIR_ENDPOINT="$IROHA_SERVICE"/api/v1/gen-key-pair
